@@ -2,13 +2,10 @@
 
 A hacker typer using streams.
 
-# Running the Program
+## Install
 
-1. Install node.js (Google node.js download)
+    npm install
 
-2. In your terminal run 'npm install'
-`$ npm install`
+## Run
 
-3. Test the program by running node index.js
-`$ node index.js`
-
+    node index.js

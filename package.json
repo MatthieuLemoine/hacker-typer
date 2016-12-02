@@ -4,7 +4,7 @@
   "description": "Just a hacker typer with streams",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm start"
   },
   "repository": {
     "type": "git",
@@ -16,7 +16,7 @@
     "typer"
   ],
   "author": "MatthieuLemoine",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/MatthieuLemoine/hacker-typer/issues"
   },
