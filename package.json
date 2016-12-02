@@ -4,7 +4,8 @@
   "description": "Just a hacker typer with streams",
   "main": "index.js",
   "scripts": {
-    "start": "npm start"
+    "start": "npm start",
+    "lint": "eslint '**/*.js'"
   },
   "repository": {
     "type": "git",
@@ -25,5 +26,12 @@
     "glob": "^7.0.0",
     "split": "^1.0.0",
     "through2": "^2.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.7.0",
+    "eslint-config-airbnb": "^12.0.0",
+    "eslint-plugin-import": "^1.16.0",
+    "eslint-plugin-jsx-a11y": "^2.2.2",
+    "eslint-plugin-react": "^6.3.0"
   }
 }

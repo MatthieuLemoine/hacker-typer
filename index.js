@@ -1,17 +1,14 @@
-'use strict';
-let fs       = require('fs');
-let glob     = require('glob');
+const fs   = require('fs');
+const glob = require('glob');
 
 // File streams
-let fileStream = fs.createReadStream('./inputs/hacker.txt',{encoding:'utf8'});
+const fileStream = fs.createReadStream('./inputs/hacker.txt', { encoding : 'utf8' });
 
 // Block streams
-let streams =  glob.sync('./inputs/part*.txt').map(item =>{
-  return fs.createReadStream(item,{encoding:'utf8'});
-});
+const streams = glob.sync('./inputs/part*.txt').map(item => fs.createReadStream(item, { encoding : 'utf8' }));
 
 // Streams
-let str      = require('./streams')(fileStream,streams);
+const str = require('./streams')(fileStream, streams);
 
 process.title = 'Hacker Typer';
 process.stdin.resume().setRawMode(true);
