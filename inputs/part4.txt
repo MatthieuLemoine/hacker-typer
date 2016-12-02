@@ -1,6 +1,0 @@
-################################
-####### ACCESS DENIED #########
-################################
-BREAK-IN ATTEMPT !!!
-FIREWALL ENABLE !
-REJECT CLIENT !
